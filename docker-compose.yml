@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  juice-shop:
+    container_name: juice-shop
+    build:
+      context: ./
+    tty: true
+    ports:      
+      - "3000:3000"
