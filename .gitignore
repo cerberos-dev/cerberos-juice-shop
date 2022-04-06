@@ -55,3 +55,7 @@ nbproject/
 /bower_components/
 /node_modules/
 /vendor/
+
+# Config Files #
+################
+.env
