@@ -6,5 +6,8 @@ services:
     build:
       context: ./
     tty: true
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      CTF_KEY: ${CTF_KEY}
     ports:      
-      - "3000:3000"
+      - "${JUICE_SHOP_PORT}:3000"
